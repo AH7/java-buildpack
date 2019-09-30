@@ -6,7 +6,7 @@ group :development do
   gem 'rspec'
   gem 'rubocop'
   gem 'rubocop-rspec'
-  gem 'rubyzip'
+  gem 'rubyzip', '>= 1.3.0'
   gem 'tee'
   gem 'terminal-table'
   gem 'webmock'
