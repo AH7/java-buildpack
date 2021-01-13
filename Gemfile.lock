@@ -15,7 +15,7 @@ GEM
     public_suffix (3.0.2)
     rainbow (3.0.0)
     rake (12.3.1)
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -56,7 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
-  redcarpet
+  redcarpet (>= 3.5.1)
   rspec
   rubocop
   rubocop-rspec
@@ -67,4 +67,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
