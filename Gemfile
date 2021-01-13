@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :development do
   gem 'rake'
-  gem 'redcarpet'
+  gem 'redcarpet', '>= 3.5.1'
   gem 'rspec'
   gem 'rubocop'
   gem 'rubocop-rspec'
