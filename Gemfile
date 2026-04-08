@@ -9,6 +9,6 @@ group :development do
   gem 'rubyzip'
   gem 'tee'
   gem 'terminal-table'
-  gem 'webmock'
+  gem 'webmock', '>= 3.4.0'
   gem 'yard'
 end
